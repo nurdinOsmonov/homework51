@@ -1,10 +1,10 @@
 import React from 'react';
 
-interface NumberProps {
+interface INumberProps {
   number: number;
 }
 
-const Number: React.FC<NumberProps> = props => {
+const Number: React.FC<INumberProps> = props => {
   return (
     <div className="number">
       <p>{props.number}</p>
