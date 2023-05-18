@@ -20,9 +20,7 @@ const App = () => {
       }
     }
 
-    array.sort(function (a, b) {
-      return a - b;
-    });
+    array.sort((a, b) => a - b);
 
     return array;
   }
